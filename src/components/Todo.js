@@ -1,7 +1,7 @@
 import React , {useState} from "react";
 
 function Todo(props) {
-    const [isEditing, setEditing] = useState(true);
+    const [isEditing, setEditing] = useState(false);
 
     const editingTemplate = (
       <form className="stack-small">
